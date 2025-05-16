@@ -128,7 +128,6 @@ class Cash extends Asset {
         return getOriginalCost();
     }
 }
-
 public class AbstractAssets {
     public static void main(String[] args) {
         ArrayList<Asset> assets = new ArrayList<Asset>();
@@ -152,7 +151,6 @@ public class AbstractAssets {
                 Vehicle v = (Vehicle) asset;
                 System.out.println("Year & Make/Model: " + v.getYear() + " " + v.getMakeModel());
             }
-
             System.out.println("---------------------------");
         }
     }
